@@ -6,6 +6,10 @@ import java.util.*;
 public class ExemploArray {
     public static void main(String[] args) {
 
+
+
+        int test2=0;
+
         Scanner scan = new Scanner(System.in);
         int menu=0;
         float [] notas = new float[5];
@@ -47,5 +51,5 @@ public class ExemploArray {
 
         } while (menu!=8);
         System.exit(0);
-    }
 }
+    }

@@ -3,7 +3,7 @@ package Boletines.Boletin20.ejercicio2;
 import Boletines.Boletin20.ejercicio1.IPodeCaminar;
 import Boletines.Boletin20.ejercicio1.Mamifero;
 
-public class Gato extends Mamifero implements IPodeCaminar, IPodeNadar {
+public class Gato extends Felino {
 
     @Override
     public void caminar() {

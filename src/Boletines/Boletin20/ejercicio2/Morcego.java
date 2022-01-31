@@ -4,7 +4,7 @@ import Boletines.Boletin20.ejercicio1.IPodeCaminar;
 import Boletines.Boletin20.ejercicio1.Mamifero;
 import Boletines.Boletin20.ejercicio2.IPodeVoar;
 
-public class Morcego extends Mamifero implements IPodeCaminar, IPodeVoar {
+public class Morcego extends Mamifero implements IPodeVoar {
     @Override
     public void caminar() {
         System.out.println("El murcielago puede caminar,....");
