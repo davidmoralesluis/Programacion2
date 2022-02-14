@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Boletines.Boletin20.ejercicio2</OriginalElement>
+  <nodes>
+    <node x="217.0" y="405.0">Boletines.Boletin20.ejercicio2.IPodeCaminar</node>
+    <node x="297.0" y="327.0">Boletines.Boletin20.ejercicio2.Morcego</node>
+    <node x="98.49999999999999" y="244.0">Boletines.Boletin20.ejercicio2.Aves</node>
+    <node x="146.0" y="327.0">Boletines.Boletin20.ejercicio2.Papagaio</node>
+    <node x="52.5" y="83.0">Boletines.Boletin20.ejercicio2.Felino</node>
+    <node x="114.0" y="166.0">Boletines.Boletin20.ejercicio2.Tigre</node>
+    <node x="209.5" y="244.0">Boletines.Boletin20.ejercicio2.IPodeVoar</node>
+    <node x="0.0" y="166.0">Boletines.Boletin20.ejercicio2.Gato</node>
+    <node x="28.5" y="0.0">Boletines.Boletin20.ejercicio2.IPodeNadar</node>
+    <node x="0.0" y="483.0">Boletines.Boletin20.ejercicio2.Mamifero</node>
+    <node x="0.0" y="405.0">Boletines.Boletin20.ejercicio2.Boletin20eje2</node>
+    <node x="0.0" y="327.0">Boletines.Boletin20.ejercicio2.Avestruz</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Boletines.Boletin20.ejercicio2.Papagaio" target="Boletines.Boletin20.ejercicio2.IPodeVoar" relationship="REALIZATION">
+      <point x="32.75" y="-16.5" />
+      <point x="244.25" y="302.0" />
+      <point x="279.5" y="302.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio2.Papagaio" target="Boletines.Boletin20.ejercicio2.Aves" relationship="GENERALIZATION">
+      <point x="-32.75" y="-16.5" />
+      <point x="178.75" y="302.0" />
+      <point x="144.0" y="302.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio2.Tigre" target="Boletines.Boletin20.ejercicio2.Felino" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="162.0" y="141.0" />
+      <point x="104.5" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio2.Morcego" target="Boletines.Boletin20.ejercicio2.IPodeVoar" relationship="REALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="360.5" y="302.0" />
+      <point x="279.5" y="302.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio2.Avestruz" target="Boletines.Boletin20.ejercicio2.Aves" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="63.0" y="302.0" />
+      <point x="144.0" y="302.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio2.Felino" target="Boletines.Boletin20.ejercicio2.IPodeNadar" relationship="REALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio2.Gato" target="Boletines.Boletin20.ejercicio2.Felino" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="47.0" y="141.0" />
+      <point x="104.5" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="212.0" y="258.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

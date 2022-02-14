@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Boletines.Boletin20.ejercicio1</OriginalElement>
+  <nodes>
+    <node x="229.75" y="0.0">Boletines.Boletin20.ejercicio1.IPodeCaminar</node>
+    <node x="110.50000000000001" y="166.0">Boletines.Boletin20.ejercicio1.Gato</node>
+    <node x="326.0" y="83.0">Boletines.Boletin20.ejercicio1.Papagaio</node>
+    <node x="172.0" y="83.0">Boletines.Boletin20.ejercicio1.Mamifero</node>
+    <node x="0.0" y="244.0">Boletines.Boletin20.ejercicio1.Boletin20eje1</node>
+    <node x="0.0" y="83.0">Boletines.Boletin20.ejercicio1.IPodeNadar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Boletines.Boletin20.ejercicio1.Gato" target="Boletines.Boletin20.ejercicio1.Mamifero" relationship="GENERALIZATION">
+      <point x="23.5" y="-16.5" />
+      <point x="181.0" y="141.0" />
+      <point x="239.0" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio1.Gato" target="Boletines.Boletin20.ejercicio1.IPodeNadar" relationship="REALIZATION">
+      <point x="-23.5" y="-16.5" />
+      <point x="134.0" y="141.0" />
+      <point x="76.0" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio1.Papagaio" target="Boletines.Boletin20.ejercicio1.IPodeCaminar" relationship="REALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="391.5" y="58.0" />
+      <point x="315.25" y="58.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="Boletines.Boletin20.ejercicio1.Mamifero" target="Boletines.Boletin20.ejercicio1.IPodeCaminar" relationship="REALIZATION">
+      <point x="0.0" y="-16.5" />
+      <point x="239.0" y="58.0" />
+      <point x="315.25" y="58.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="228.5" y="138.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
