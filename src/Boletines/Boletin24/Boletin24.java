@@ -12,7 +12,7 @@ public class Boletin24 {
         int menu=0;
 
         do {
-            menu=Integer.parseInt(JOptionPane.showInputDialog("-- Librería --\n\n1-> engadir libros\n2-> vender (borrar) libros\n3-> amosar os libros\n4-> dar de baixa\n5-> consultasr libro\n0-> Salir"));
+            menu=Integer.parseInt(JOptionPane.showInputDialog("-- Librería --\n\n1-> engadir libros\n2-> vender (borrar) libros\n3-> amosar os libros\n4-> dar de baixa\n5-> consultar libro\n0-> Salir"));
             switch (menu){
 
                 case 1: buecherei.addLibro();
@@ -21,9 +21,9 @@ public class Boletin24 {
                     break;
                 case 3: buecherei.mostrarLibros();
                     break;
-                case 4:
+                case 4: buecherei.darDeBaixaLibro();
                     break;
-                case 5:
+                case 5: buecherei.consultasLibro();
                     break;
                 case 0:JOptionPane.showMessageDialog(null,"Fin de programa");
                     break;
