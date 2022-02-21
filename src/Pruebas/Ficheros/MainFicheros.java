@@ -24,11 +24,13 @@ public class MainFicheros {
 
         //obxLectura.lerObxectos(players);
 
-        //obxLectura.lerObxectosMeterArray(players,"\\s*,\\s*");
 
         //obxWirte.escribirNumeros("numInt.txt");
         //obxWirte.engadirNumeros("numEnterio.txt");
         //obxWirte.escribirBuffer("nomesBuff.txt");
-        obxWirte.escribirObxectos("escribirXogadores.txt");
+       // obxWirte.escribirObxectos("escribirXogadores.txt");
+       // obxLectura.lerObxectosMeterArray2("escribirXogadores.txt","\\s*,\\s*");
+
+        obxWirte.escribirObxectos2("nomeXogadores",obxLectura.lerObxectosMeterArray(players,","));
     }
 }

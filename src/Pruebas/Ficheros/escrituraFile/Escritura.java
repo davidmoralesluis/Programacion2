@@ -12,6 +12,7 @@ package Pruebas.Ficheros.escrituraFile;
 import Pruebas.Ficheros.LecturaFile.Xogador;
 
 import java.io.*;
+import java.util.ArrayList;
 
 public class Escritura {
 
@@ -118,4 +119,31 @@ public class Escritura {
         }
 
     }
+
+    public void escribirObxectos2(String newfichero, ArrayList<Xogador> listaX){
+        try {
+            fichero = new FileWriter(newfichero,false);
+            escribir = new PrintWriter(fichero);
+
+            for (Xogador newX: listaX) {
+                escribir.println("nome:"+newX.getNome()+", nº:"+newX.getDorsal());
+            }
+
+            System.out.println("Fichero creado con exito");
+
+        }catch (IOException fail){
+            System.out.println(fail.getMessage());
+        }
+        finally {
+            try {
+                fichero.close();
+                escribir.close();
+
+            }catch (Exception e){
+                System.out.println(e.getMessage());
+            }
+        }
+
+    }
+
 }//class
