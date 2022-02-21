@@ -1,8 +1,10 @@
 package Pruebas.Ficheros;
 
 import Pruebas.Ficheros.LecturaFile.Lectura;
+import Pruebas.Ficheros.escrituraFile.Escritura;
 
 import java.io.File;
+import java.util.Arrays;
 
 public class MainFicheros {
     /*
@@ -10,9 +12,23 @@ public class MainFicheros {
      */
     public static void main(String[] args) {
         Lectura obxLectura = new Lectura();
-        File fichero = new File("/home/dam1/IdeaProjects/Programacion2/src/Pruebas/Ficheros/nomes");
+        Escritura obxWirte = new Escritura();
         File numbers = new File("/home/dam1/IdeaProjects/Programacion2/src/Pruebas/Ficheros/numeros");
+        File fichero = new File("/home/dam1/IdeaProjects/Programacion2/src/Pruebas/Ficheros/names");
+        File players = new File("/home/dam1/IdeaProjects/Programacion2/src/Pruebas/Ficheros/Xogadores");
 
-        obxLectura.lerLine(numbers);
+        //System.out.println(System.getProperty("os.name"));
+
+        //obxLectura.readLine(fichero);
+        //obxLectura.readConLimit(fichero,",");
+
+        //obxLectura.lerObxectos(players);
+
+        //obxLectura.lerObxectosMeterArray(players,"\\s*,\\s*");
+
+        //obxWirte.escribirNumeros("numInt.txt");
+        //obxWirte.engadirNumeros("numEnterio.txt");
+        //obxWirte.escribirBuffer("nomesBuff.txt");
+        obxWirte.escribirObxectos("escribirXogadores.txt");
     }
 }

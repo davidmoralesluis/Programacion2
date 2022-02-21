@@ -3,7 +3,7 @@ package Boletines.Boletin18;
 import java.util.Scanner;
 
 public class Boletin18 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
 
         Scanner sc = new Scanner(System.in);
 
@@ -16,8 +16,10 @@ public class Boletin18 {
         try {
             float fahren=App.centigradosAFharenheit(celsius);
             System.out.println(celsius +" centigrados son "+ fahren + " Fahrenheit");
-        }catch (TemperaturaErradaExcepcion error){
+        } catch (TemperaturaErradaExcepcion error){
             System.out.println(error.getMessage());
+        }catch (Exception err){
+            throw new Exception();
         }
 
         App.centigradosAReamur(celsius);
