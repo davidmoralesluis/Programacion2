@@ -65,7 +65,7 @@ public class Escritura {
         }
     }
 
-    public void escribirBuffer(String inputfichero){
+    public void escribirBuffer(String inputfichero) {
 
         try {
             fichero = new FileWriter(inputfichero,false);
@@ -82,11 +82,15 @@ public class Escritura {
         finally {
             try {
                 buff.close();
+                buff.flush();
                 fichero.close();
-            }catch (IOException ex){
+            } catch (IOException e) {
                 System.out.println("no se puede cerrar");
             }
+
+
         }
+
     }
 
     public void escribirObxectos(String newfichero){

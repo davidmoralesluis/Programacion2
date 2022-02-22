@@ -14,12 +14,12 @@ public class MainFicheros {
         Lectura obxLectura = new Lectura();
         Escritura obxWirte = new Escritura();
         File numbers = new File("/home/dam1/IdeaProjects/Programacion2/src/Pruebas/Ficheros/numeros");
-        File fichero = new File("/home/dam1/IdeaProjects/Programacion2/src/Pruebas/Ficheros/names");
+        File fichero = new File("/home/dam1/IdeaProjects/Programacion2/src/Pruebas/Ficheros/na");
         File players = new File("/home/dam1/IdeaProjects/Programacion2/src/Pruebas/Ficheros/Xogadores");
 
         //System.out.println(System.getProperty("os.name"));
 
-        //obxLectura.readLine(fichero);
+        obxLectura.readLine(fichero);
         //obxLectura.readConLimit(fichero,",");
 
         //obxLectura.lerObxectos(players);
